@@ -1,0 +1,28 @@
+{
+  "name": "deployecommerce/magento2-csp-parser",
+  "description": "A library which will parse a Magento 2 CSP whitelist file into a structured array.",
+  "type": "library",
+  "keywords": [
+    "csp",
+    "content-security-policy",
+    "parser",
+    "security",
+    "headers",
+    "http",
+    "pci",
+    "magento",
+    "magento2",
+    "adobe",
+    "commerce"
+  ],
+  "version": "0.0.1",
+  "license": "OSL-3.0",
+  "autoload": {
+    "psr-4": {
+      "DeployEcommerce\\Csp\\Parser\\": "src/"
+    }
+  },
+  "require": {
+    "ext-simplexml": "*"
+  }
+}
